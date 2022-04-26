@@ -1,0 +1,5 @@
+x = float(input("Ingresa un número: "))
+y = int(x)
+z = complex(x,y)
+print(x,y,z,sep=" , ")
+print(type(x),type(y),type(z))
